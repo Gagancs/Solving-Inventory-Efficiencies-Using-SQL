@@ -13,18 +13,7 @@ This project uses **SQL-driven analytics** to help the business:
 ---
 
 ## 📁 Folder Structure
-├── 📂 raw_data
-│ └── retail_store_inventory.csv
-├── 📂 sql_queries
-│ ├── stock_level_calculations.sql
-│ ├── reorder_point_estimation.sql
-│ └── inventory_turnover_analysis.sql
-├── 📂 database_design
-│ └── ERD.png
-├── 📂 reports
-│ └── inventory_kpi_summary.md
-├── 📂 documentation
-│ └── project_summary.pdf
+
 
 
 ---

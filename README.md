@@ -34,18 +34,16 @@ This project uses **SQL-driven analytics** to help the business:
 ## 🗂️ Dataset
 
 - **File**: `retail_store_inventory.csv`
-- **Size**: ~X MB
-- **Fields**: SKU ID, Location, On-Hand Quantity, Sales, Cost, Department, etc.
+- **Size**: ~
+- **Fields**: 
 - The dataset has been normalized and cleaned for relational modeling.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **SQL** (PostgreSQL / BigQuery compatible)
-- **Google BigQuery** (Cloud-based collaboration)
-- **Git & GitHub** (Version control)
-- **DrawSQL / dbdiagram.io** (ERD Design)
+- **SQL** (MySQL / BigQuery compatible)
+- 
 
 ---
 
@@ -55,16 +53,6 @@ This project uses **SQL-driven analytics** to help the business:
 - ✅ Entity Relationship Diagram (ERD)
 - ✅ SQL queries for actionable inventory insights
 - ✅ Business recommendations and summary report
-
----
-
-## 🧑‍🤝‍🧑 Team Members & Contributions
-
-| Name           | Role                            | GitHub |
-|----------------|----------------------------------|--------|
-| Yuvraj         | SQL Analysis & Query Optimization| [@alice-github](https://github.com/alice-github) |
-| Ahlad          | Data Modeling & ERD              | [@bob-github](https://github.com/bob-github) |
-| Gagan          | Project Lead, Reporting & Docs   | [@your-github](https://github.com/your-github) |
 
 ---
 

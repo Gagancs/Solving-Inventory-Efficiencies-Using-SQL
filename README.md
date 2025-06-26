@@ -42,29 +42,11 @@ This project uses **SQL-driven analytics** to help the business:
 
 ## 🛠️ Tech Stack
 
-- **SQL** (MySQL / BigQuery compatible)
-- 
 
----
 
-## 📌 Key Deliverables
 
-- ✅ Normalized database schema (3NF)
-- ✅ Entity Relationship Diagram (ERD)
-- ✅ SQL queries for actionable inventory insights
-- ✅ Business recommendations and summary report
 
----
 
-## 🤝 How to Contribute
-
-1. Clone the repository
-2. Create a new branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m "add feature"`
-4. Push to your branch: `git push origin feature-name`
-5. Open a Pull Request for review
-
----
 
 ## 📄 License
 
@@ -73,8 +55,6 @@ This project is for educational and portfolio-building purposes.
 ---
 
 ## 📬 Contact
-
-Feel free to reach out for feedback or collaboration!
 
 📧 gaganaharwal2019@gmail.com
 🔗 [LinkedIn]

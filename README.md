@@ -1,63 +1,77 @@
-# 🛒 Solving Inventory Inefficiencies Using SQL
+# SQL-Based Inventory Optimization for Urban Retail Co.
 
-## 📊 Project Overview
+## Project Overview
 
-**Urban Retail Co.** is a fast-growing mid-sized retail chain operating both physical stores and online platforms. With over 5,000 SKUs, we face major challenges in managing inventory effectively.
-
-This project uses **SQL-driven analytics** to help the business:
-- Detect stock inefficiencies
-- Recommend reorder points
-- Identify fast vs slow-moving items
-- Optimize supply chain decisions using data
+This project is a comprehensive analysis of a retail company's inventory, sales, and supply chain data. I acted as a data analyst for the fictional "Urban Retail Co." to solve critical business challenges related to inventory inefficiency. The project involved designing a database from the ground up, performing ETL, and using advanced SQL queries to uncover actionable insights that directly impact profitability and customer satisfaction.
 
 ---
 
-## 📁 Folder Structure
+## 🎯 The Business Challenge
 
-
-
----
-
-## 🧠 Key Objectives
-
-- 🔎 Calculate stock levels across stores and warehouses
-- ⚠️ Detect low inventory based on reorder thresholds
-- 📈 Estimate optimal reorder points using past trends
-- 🔄 Analyze inventory turnover rates
-- 📊 Produce KPI dashboards like:
-  - Stockout rate
-  - Inventory age
-  - Average inventory level
+Urban Retail Co., a growing retail chain, was facing significant financial and operational issues due to a lack of data-driven decision-making. The primary challenges were:
+* **Lost Sales** from frequent stockouts of popular products.
+* **Trapped Working Capital** due to overstocking of slow-moving items.
+* **Poor Visibility** into performance across different product categories, stores, and suppliers.
 
 ---
 
-## 🗂️ Dataset
+##  Our Solution & Approach
 
-- **File**: `retail_store_inventory.csv`
-- **Size**: ~
-- **Fields**: 
-- The dataset has been normalized and cleaned for relational modeling.
+My approach was to build an end-to-end analytical solution using SQL to provide clarity and drive strategic action.
 
----
+1.  **Database Engineering:** I designed and implemented a robust relational database using a **Star Schema**. This involved normalizing the raw data to reduce redundancy and indexing all key columns to ensure high-speed query performance for analytics.
 
-## 🛠️ Tech Stack
+2.  **ETL Process:** I developed a script to Extract, Transform, and Load the raw CSV data into the newly designed database, ensuring data integrity and consistency.
 
+3.  **Data Analysis with SQL:** I wrote a suite of over 20 advanced SQL queries, organized by theme, to perform deep-dive analysis. This included using **CTEs, Window Functions, Statistical Aggregates, and Complex Joins** to calculate key business metrics.
 
-
-
-
-
-
-## 📄 License
-
-This project is for educational and portfolio-building purposes.
+4.  **Actionable Insights:** I translated the complex query results into clear, quantifiable findings and developed a set of strategic recommendations for the business.
 
 ---
 
-## 📬 Contact
+## 💻 Tech Stack & Key Concepts
 
-📧 gaganaharwal2019@gmail.com
-🔗 [LinkedIn]
+* **Database:** Microsoft SQL Server
+* **Querying & IDE:** SQL Server Management Studio (SSMS)
+* **Dashbaord:** Microsoft PowerBI 
+* **Key SQL Concepts:**
+    * Advanced Joins & Subqueries
+    * Common Table Expressions (CTEs)
+    * Window Functions (`ROW_NUMBER`, `RANK`, `SUM() OVER`)
+    * Statistical Aggregates (`AVG`, `STDEV`)
+    * Conditional Aggregation (`CASE` statements)
+    * Database Design (Star Schema, Normalization, Indexing)
 
+---
 
+## 🖼️ Visual Showcase
 
+### Database Design (ERD)
+The database was designed with a Star Schema to optimize analytical queries. The central fact table holds quantitative data, while the dimension tables hold descriptive attributes.
+
+*You should upload your ERD image to a `/showcase` folder in this repository and this link will work automatically.*
+![Entity Relationship Diagram](./showcase/ERD.png)
+
+### KPI Dashboard Mockup
+The final output of the analysis is a comprehensive KPI dashboard designed for executive review and operational management. It provides an at-a-glance view of the most critical inventory metrics.
+
+*You should upload a screenshot of your dashboard mockup to the `/showcase` folder.*
+![Inventory KPI Dashboard](./showcase/dashboard.png)
+
+---
+
+## 📈 Key Findings & Actionable Insights
+
+My analysis uncovered several critical insights that directly inform business strategy:
+
+* **Capital Recovery Opportunity:** Identified **$785,000 in obsolete stock** (no sales in 180+ days). This represents a significant opportunity to free up working capital.
+
+* **The 80/20 Rule Confirmed:** The top **15% of products (Class A) generate 80% of revenue**. This insight allows for a differentiated inventory strategy, focusing efforts on the most valuable items.
+
+* **Supplier Reliability Gaps:** The "Electronics" supplier group was identified as the least reliable, with a **12% stockout rate**—more than double the company average—directly causing lost sales in a high-margin category.
+
+* **Systemic Forecasting Errors:** The analysis revealed a consistent **-18% under-forecasting bias** for "Personal Care" items, explaining their chronic stockouts.
+
+* **Untapped Seasonal Revenue:** Sales for "Home Essentials" **increase by 40% in Winter**, a predictable trend that was not previously being leveraged, leading to missed sales during peak season.
+
+---

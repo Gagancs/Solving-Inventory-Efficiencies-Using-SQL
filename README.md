@@ -54,23 +54,11 @@ The database was designed with a Star Schema to optimize analytical queries. The
 ### KPI Dashboard Mockup
 The final output of the analysis is a comprehensive KPI dashboard designed for executive review and operational management. It provides an at-a-glance view of the most critical inventory metrics.
 
-![Inventory KPI Dashboard](./dashbaord/DashboardPage1.png)
-![Inventory KPI Dashboard](./dashbaord/DashboardPage2.png)
+![Inventory KPI Dashboard](./dashboard/DashboardPage1.png)
+![Inventory KPI Dashboard2](./dashboard/DashboardPage2.png)
 
 ---
 
 ## 📈 Key Findings & Actionable Insights
-
-My analysis uncovered several critical insights that directly inform business strategy:
-
-* **Capital Recovery Opportunity:** Identified **$785,000 in obsolete stock** (no sales in 180+ days). This represents a significant opportunity to free up working capital.
-
-* **The 80/20 Rule Confirmed:** The top **15% of products (Class A) generate 80% of revenue**. This insight allows for a differentiated inventory strategy, focusing efforts on the most valuable items.
-
-* **Supplier Reliability Gaps:** The "Electronics" supplier group was identified as the least reliable, with a **12% stockout rate**—more than double the company average—directly causing lost sales in a high-margin category.
-
-* **Systemic Forecasting Errors:** The analysis revealed a consistent **-18% under-forecasting bias** for "Personal Care" items, explaining their chronic stockouts.
-
-* **Untapped Seasonal Revenue:** Sales for "Home Essentials" **increase by 40% in Winter**, a predictable trend that was not previously being leveraged, leading to missed sales during peak season.
 
 ---

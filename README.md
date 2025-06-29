@@ -44,7 +44,7 @@ My approach was to build an end-to-end analytical solution using SQL to provide 
 
 ---
 
-## 🖼️ Visual Showcase
+## 🖼️ Visuals
 
 ### Database Design (ERD)
 The database was designed with a Star Schema to optimize analytical queries. The central fact table holds quantitative data, while the dimension tables hold descriptive attributes.
@@ -54,8 +54,8 @@ The database was designed with a Star Schema to optimize analytical queries. The
 ### KPI Dashboard Mockup
 The final output of the analysis is a comprehensive KPI dashboard designed for executive review and operational management. It provides an at-a-glance view of the most critical inventory metrics.
 
-*You should upload a screenshot of your dashboard mockup to the `/showcase` folder.*
-![Inventory KPI Dashboard](./showcase/dashboard.png)
+![Inventory KPI Dashboard](./dashbaord/DashboardPage1.png)
+![Inventory KPI Dashboard](./dashbaord/DashboardPage2.png)
 
 ---
 

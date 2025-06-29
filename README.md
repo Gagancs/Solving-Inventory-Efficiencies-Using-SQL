@@ -59,6 +59,17 @@ The final output of the analysis is a comprehensive KPI dashboard designed for e
 
 ---
 
-## 📈 Key Findings & Actionable Insights
+## 📈 Repository Structure
+
+### Repository Contents 
+
+* **`Sql_Scripts/`**: Contains SQL scripts.
+    * **`schema_and_etl/`**: Contains the  scripts to build and populate the database.
+    * **`analysis_queries/`**: Contains the SQL scripts for Analysis.
+* **`analysis reports/`**: Contains Project Report and Executive Summary.
+* **`dashboard/`**: Dashboard Pages image.
+* **`data/`**: Holds the raw dataset that is source of project.
+* **`erd/`**: Contains the Entity-Relationship Diagram.
+* **`README.md`**: This file, providing a complete overview and guide to the project.
 
 ---

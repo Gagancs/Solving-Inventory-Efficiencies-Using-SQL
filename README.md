@@ -55,7 +55,7 @@ The database was designed with a Star Schema to optimize analytical queries. The
 The final output of the analysis is a comprehensive KPI dashboard designed for executive review and operational management. It provides an at-a-glance view of the most critical inventory metrics.
 
 ![Inventory KPI Dashboard](./dashboard/DashboardPage1.png)
-![Inventory KPI Dashboard2](./dashboard/DashboardPage.png)
+![Inventory KPI Dashboard2](./dashboard/DashboardPageOperation.png)
 
 ---
 
